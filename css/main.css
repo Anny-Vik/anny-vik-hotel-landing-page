@@ -486,10 +486,10 @@ img {
   background-position: center;
 }
 .info--map::before {
-  background-image: url("/img/icons/map.svg");
+  background-image: url("../img/icons/map.svg");
 }
 .info--tel::before {
-  background-image: url("/img/icons/phone-call.svg");
+  background-image: url("../img/icons/phone-call.svg");
 }
 
 .benefits {
