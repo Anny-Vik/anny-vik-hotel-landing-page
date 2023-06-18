@@ -1,0 +1,55 @@
+.cta {
+  padding: 180px;
+
+  background:
+    linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38), #242B33 92.19%),
+
+    url('/img/hotel-lobby.jpg') center no-repeat;
+    filter: grayscale(40%) sepia(1%) brightness(93%);
+   -webkit-filter: grayscale(40%) sepia(1%)     brightness  (93%);
+    -moz-filter: grayscale(40%) sepia(1%) brightness(93%);
+
+    @include mediaTablet {
+      padding: 60px 0;
+    }
+
+
+}
+
+.cta__title {
+  margin-bottom: 17px;
+  text-align: center;
+
+}
+.cta__wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+
+  @include mediaTablet {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cta__text {
+  line-height: 1.5;
+  text-align: center;
+
+  p + p {
+    margin-top: 1em;
+  }
+
+  @include mediaTablet {
+    font-size: 14px;
+  }
+}
+
+.cta__form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px 30px;
+
+  @include mediaTablet {
+    grid-template-columns: 1fr;
+  }
+}

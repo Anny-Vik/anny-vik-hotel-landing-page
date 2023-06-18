@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700&family=Roboto+Mono:wght@200&display=swap');
+
+
+body {
+  font-family: $font-main;
+  background-color: $dark;
+  color: $white;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+a {
+  color: $white;
+  transition: color 0.2s ease-in;
+
+  &:hover {
+    color: $accent;
+
+  }
+}
+
+img {
+  object-fit: cover;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1140px;
+
+  &--sm {
+    min-width: 840px;
+  }
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.visually-hidden {
+  overflow: hidden;
+}
+
+.none {
+  display: none !important;
+}
+
+.title-2 {
+  font-size: 36px;
+  font-family: $font-accent;
+  color: $accent;
+  font-weight: 700;
+  @include mediaTablet {
+    font-size: 32px;
+  }
+}
+
+.link-bold {
+  color: $accent;
+  font-weight: 700;
+}
