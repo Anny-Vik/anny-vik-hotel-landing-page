@@ -167,7 +167,7 @@ img {
   padding-bottom: 74px;
   min-height: 840px;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(11.98%, #242b33), color-stop(51.04%, rgba(45, 52, 60, 0.38)), color-stop(92.19%, #242b33)), url("/img/header/bg-header.jpg") no-repeat center;
-  background: linear-gradient(180deg, #242b33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242b33 92.19%), url("img/header/bg-header.jpg") no-repeat center;
+  background: linear-gradient(180deg, #242b33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242b33 92.19%), url("./img/header/bg-header.jpg") no-repeat center;
 }
 @media screen and (max-width: 959px) {
   .header {
@@ -486,10 +486,10 @@ img {
   background-position: center;
 }
 .info--map::before {
-  background-image: url("img/icons/map.svg");
+  background-image: url("./img/icons/map.svg");
 }
 .info--tel::before {
-  background-image: url("img/icons/phone-call.svg");
+  background-image: url("./img/icons/phone-call.svg");
 }
 
 .benefits {
